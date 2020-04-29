@@ -37,10 +37,13 @@ blockquote{
   list-style-type: none;
 }
 
-
+li ol li:first-child{
+  font-weight: bold;
+}
 
 li > ul{
 background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg);
+opacity: .7;
 }
 
 img{
